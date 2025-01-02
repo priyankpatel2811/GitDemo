@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="tests" name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT">
+  <parameter name="APIKey" value="54321"/>
+  <parameter name="URL" value="https://www.google.ca"/>
+  <listeners>
+    <listener class-name="Test.Listeners"/>
+  </listeners>
+  <test thread-count="6" parallel="tests" name="Personal loan(failed)">
+    <parameter name="secondURL" value="https://www.Avenza.ca"/>
+    <classes>
+      <class name="Test.day3">
+        <methods>
+          <include name="WeblogincarLoan"/>
+          <include name="firstclass"/>
+          <include name="verylasttest"/>
+          <include name="lastTest"/>
+          <include name="everymethod"/>
+        </methods>
+      </class> <!-- Test.day3 -->
+    </classes>
+  </test> <!-- Personal loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->
