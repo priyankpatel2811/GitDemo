@@ -23,12 +23,16 @@ public class day3 {
 	{
 		System.out.println("Test 3.2");
 		System.out.println(url2);
+
+		System.out.println("1");
 	}
 	
 	@Test(dependsOnMethods= {"MobileLogincarLoan"})
 	public void LoginAPIcarLoan()
 	{
 		System.out.println("Test 3.3");
+
+		System.out.println("1");
 	}
 	
 	@AfterTest
