@@ -21,6 +21,13 @@ public class Day1 {
 		System.out.println("Test 1.2");
 		System.out.println("The username is: "+username);
 		System.out.println("The password is: "+password);
+		System.out.println("New Line added");
+		System.out.println("New Line added");
+		System.out.println("New Line added");
+		System.out.println("New Line added");
+		//New line added 
+		//New line added
+		//New line added
 	}
 	
 	@Parameters({"URL","APIKey"})
