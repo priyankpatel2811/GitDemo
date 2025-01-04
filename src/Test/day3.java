@@ -17,6 +17,18 @@ public class day3 {
 		Assert.assertTrue(false);
 	}
 	
+	public void WeblogincarLoan123()
+	{
+		System.out.println("Test 3.1");
+		Assert.assertTrue(false);
+	}
+	
+	public void WeblogincarLoan456()
+	{
+		System.out.println("Test 3.1");
+		Assert.assertTrue(false);
+	}
+	
 	@Parameters({"secondURL"})
 	@Test
 	public void MobileLogincarLoan(String url2)

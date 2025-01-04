@@ -9,7 +9,19 @@ public class day4 {
 	@Test(groups= {"Regression"})
 	public void WebloginHomeLoan()
 	{
-		System.out.println("Test 4.1");
+		System.out.println("Test 4.1.1");
+	}
+	public void WebloginHomeLoan123()
+	{
+		System.out.println("Test 4.1.2");
+	}
+	public void WebloginHomeLoan456()
+	{
+		System.out.println("Test 4.1.3");
+	}
+	public void WebloginHomeLoan789()
+	{
+		System.out.println("Test 4.1.4");
 	}
 
 	@Test

@@ -13,6 +13,12 @@ public class day2 {
 
 		System.out.println("1");
 	}
+	public void test3()
+	{
+		System.out.println("Test 2.1");
+
+		System.out.println("1");
+	}
 	
 	@BeforeTest
 	public void firstexecute()

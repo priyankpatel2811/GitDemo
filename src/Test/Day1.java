@@ -13,6 +13,11 @@ public class Day1 {
 		System.out.println("Test 1.1");
 		
 	}
+	public void priyank123()
+	{
+		System.out.println("Test 1.1");
+		
+	}
 	
 	//@Test(timeOut=4000)
 	@Test(dataProvider="getData")
@@ -21,13 +26,20 @@ public class Day1 {
 		System.out.println("Test 1.2");
 		System.out.println("The username is: "+username);
 		System.out.println("The password is: "+password);
-		System.out.println("New Line added");
-		System.out.println("New Line added");
-		System.out.println("New Line added");
-		System.out.println("New Line added");
+		System.out.println("Changes");
+		System.out.println("Changes");
+		System.out.println("Changes");
+		System.out.println("Changes");
+		System.out.println("Changes");
 		//New line added 
 		//New line added
 		//New line added
+		//Test
+		System.out.println("1");
+		System.out.println("2");
+		System.out.println("3");
+		System.out.println("4");
+		
 	}
 	
 	@Parameters({"URL","APIKey"})
