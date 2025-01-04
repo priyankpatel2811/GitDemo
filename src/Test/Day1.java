@@ -7,6 +7,14 @@ import org.testng.annotations.Test;
 public class Day1 {
 	
 	//@Test(groups= {"Regression"})
+	
+	public void CentralTime()
+	{
+		System.out.println("Central timezone");
+		
+	}
+	
+	
 	@Test(enabled=false)	//To disable a method during execution
 	public void priyank()
 	{
